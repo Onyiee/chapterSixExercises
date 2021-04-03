@@ -13,7 +13,7 @@ public class Main {
 
         while ( guessedNumber !=  randomInt){
              randomInt = (int) Math.floor(Math.random() * (max - min + 1) + min);
-            System.out.println(randomInt);
+//            System.out.println(randomInt);
             Scanner input = new Scanner(System.in);
             System.out.println("Enter a number between 1 and 1000: ");
               guessedNumber = input.nextInt();
